@@ -62,6 +62,9 @@
         <stubElementTypeHolder class="org.elm.lang.core.psi.ElmTypes" />
         <stubIndex implementation="org.elm.lang.core.stubs.index.ElmModulesIndex" />
         <stubIndex implementation="org.elm.lang.core.stubs.index.ElmNamedElementIndex" />
+
+        <moduleBuilder builderClass="org.elm.ide.module.ElmModuleBuilder" id="Elm-Module-Builder" order="first" />
+        <moduleType id="Elm-Module" implementationClass="org.elm.ide.module.ElmModuleType" />
     </extensions>
 
     <actions>

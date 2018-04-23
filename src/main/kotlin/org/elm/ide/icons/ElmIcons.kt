@@ -9,6 +9,7 @@ object ElmIcons {
     val VALUE = getIcon("value.png")
     val UNION_TYPE = getIcon("type.png")
     val TYPE_ALIAS = getIcon("type.png")
+    val LOGO = getIcon("elm-logo.png")
 
     private fun getIcon(path: String): Icon {
         return IconLoader.getIcon("/icons/$path")
